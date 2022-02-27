@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+nav{
+    position: absoute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing:border-box;
+    background:transparent;
+}
+
+nav .logo{
+    padding: 0;
+    height: 200px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+ nav ul{
+     list-style: none;
+     float: right;
+     margin: 0;
+     padding: 0;
+     display: flex;
+ }
+
+ nav ul li a {
+     line-height: 80px;
+     color: #fff;
+     padding: 12px 30px;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ nav ul li a:hover {
+     background: grey;
+     border-radius: 6px;
+
+ }
+
+ nav ul li a.active{
+     background: sienna;
+     color: #fff;
+     border-radius: 6px;
+ }
+
+ #showcase{
+    position: relative;
+    background-image: url('prayer-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+    }
+    
+    .showcase-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px ;
+        margin: 100px;
+    
+    }
+
+.showcase-content h1  {
+    color: #fff;
+    font-size: 40px;
+}
+
+.showcase-content p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.button{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 2.5rem;
+    text-transform: uppercase;
+    
+}
+
+.button:hover{
+    background-color: rgb(112, 109, 109);
+}
+
+.parallax{
+    background-image: url('people-2590551.jpg');
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.verse{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.verse p{
+    margin-top: 0;
+}
+
+
+.parallax-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px
+    
+
+}
+.parallax-content h1{
+    font-size: 30px;
+    color: #000;
+    font-style: oblique;
+    padding-top: 30px ;
+    padding-bottom: 0;
+    margin-bottom: 0.5px;
+    text-transform: uppercase;
+
+    
+   
+}
+
+.parallax-content p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 0;
+}
+.sec{
+    position: fixed;
+}
+
+.btn2{
+    color: #000;
+    margin-top: 0.5rem;
+}
+
+.departs{
+    background-color: rgb(235, 223, 223);
+    background-attachment: fixed;
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+img{
+    width : 80%;
+}
+
+.departs p{
+    color: #ffffff;
+}
+
+.wewe{
+    background-image: url('woman-1509956.jpg');
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+@media screen (min-width : 960px) {
+
+  #showcase {
+            height: 70vh; 
+        
+       }
+
+       .showcase-top {
+margin-top: 0;
+
+       }
+}
+
+
